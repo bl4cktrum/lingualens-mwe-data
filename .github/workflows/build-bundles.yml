@@ -1,0 +1,105 @@
+name: Build & Publish MWE Bundles
+
+on:
+  # Weekly auto-rebuild every Sunday at 02:00 UTC.
+  schedule:
+    - cron: "0 2 * * 0"
+
+  # Manual trigger from Actions UI (useful for forced rebuilds).
+  workflow_dispatch:
+    inputs:
+      langs:
+        description: "Comma-separated language codes (leave empty for all)"
+        required: false
+        default: ""
+      tatoeba:
+        description: "Enrich with Tatoeba examples (slow)"
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  build:
+    name: Build bundles
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to push the release tag + commit bundles
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history for tag detection
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Determine version
+        id: version
+        run: |
+          # Version = YYYY.MM.DD. If the tag already exists (same-day re-run),
+          # append a patch counter (.1, .2, …).
+          BASE=$(date -u +"%Y.%m.%d")
+          VER=$BASE
+          COUNTER=0
+          while git rev-parse "v${VER}" >/dev/null 2>&1; do
+            COUNTER=$((COUNTER + 1))
+            VER="${BASE}.${COUNTER}"
+          done
+          echo "version=${VER}" >> "$GITHUB_OUTPUT"
+          echo "tag=v${VER}" >> "$GITHUB_OUTPUT"
+          echo "Resolved version: ${VER}"
+
+      - name: Build bundles
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          LANG_ARG=""
+          if [ -n "${{ github.event.inputs.langs }}" ]; then
+            LANG_ARG="--lang ${{ github.event.inputs.langs }}"
+          else
+            LANG_ARG="--all"
+          fi
+
+          TATOEBA_ARG=""
+          if [ "${{ github.event.inputs.tatoeba }}" = "true" ]; then
+            TATOEBA_ARG="--tatoeba"
+          fi
+
+          npx tsx tools/cli.ts $LANG_ARG $TATOEBA_ARG --version "$VERSION"
+
+      - name: Commit bundles to branch
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add bundles/
+          # No-op if nothing changed (e.g. source data unchanged).
+          git diff --cached --quiet && echo "No changes to commit." && exit 0
+          git commit -m "chore: rebuild bundles ${{ steps.version.outputs.version }} [skip ci]"
+          git push origin HEAD
+
+      - name: Create release tag
+        run: |
+          TAG=${{ steps.version.outputs.tag }}
+          git tag "$TAG" -m "Bundle release $TAG"
+          git push origin "$TAG"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: Bundle release ${{ steps.version.outputs.version }}
+          body: |
+            Automated weekly MWE bundle rebuild.
+
+            **Changed files:** see `bundles/` in this commit.
+            **jsDelivr CDN:** available within ~15 min at
+            `https://cdn.jsdelivr.net/gh/bl4cktrum/lingualens-mwe-data@${{ steps.version.outputs.tag }}/bundles/`
+          files: bundles/*.json
+          generate_release_notes: false

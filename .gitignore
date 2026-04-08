@@ -1,0 +1,9 @@
+node_modules/
+dist/
+# Generated bundles are committed on release via CI — keep locally for inspection
+# but don't accidentally push mid-build artifacts from feature branches.
+# Remove this line when you want to commit bundles from local.
+# bundles/
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,27 @@
+{
+  "name": "lingualens-mwe-data",
+  "version": "1.0.0",
+  "description": "MWE bundle build pipeline for the LinguaLens browser extension",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build-bundle": "tsx tools/cli.ts",
+    "build-all": "tsx tools/cli.ts --all",
+    "validate": "tsx tools/cli.ts --validate-only",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "papaparse": "^5.4.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/papaparse": "^5.3.14",
+    "tsx": "^4.19.2",
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,19 @@
+# Turkish manual MWE overrides / supplements.
+# Format (tab-separated): expression	type	examples	surfaceForms	separability	gapPositions	confidence
+expression	type	examples	surfaceForms	separability	gapPositions	confidence
+göz önünde bulundurmak	collocation	Bu faktörü göz önünde bulundurmalıyız.		0		0.9
+dikkate almak	collocation	Lütfen önerilerimi dikkate alın.		0		0.9
+karar vermek	collocation	Bir karar verme zamanı geldi.		0		0.9
+hesaba katmak	collocation	Tüm riskleri hesaba katmalıyız.		0		0.9
+ele almak	collocation	Bu konuyu yarın ele alalım.		0		0.9
+yola çıkmak	collocation	Sabah erken yola çıktık.		0		0.85
+söz vermek	collocation	Sana söz veriyorum.		0		0.9
+hayata geçirmek	collocation	Bu planı hayata geçirmemiz gerekiyor.		0		0.85
+taşları yerli yerine oturtmak	idiom	Sonunda taşlar yerli yerine oturdu.		0		0.85
+deveye hendek atlatmak	idiom	Bu işi bitirmek deveye hendek atlatmak gibi.		0		0.8
+taş üstüne taş koymak	idiom	Artık taş üstüne taş koyma zamanı.		0		0.8
+başka bir deyişle	fixed	Başka bir deyişle seçeneğimiz yok.		0		0.95
+öte yandan	fixed	Öte yandan faydaları da göz ardı edilemez.		0		0.95
+sonuç olarak	fixed	Sonuç olarak proje ertelendi.		0		0.95
+en azından	fixed	En azından denedik.		0		0.95
+aslında	fixed	Aslında tam tersi doğru.		0		0.9

@@ -1,0 +1,17 @@
+# French manual MWE overrides / supplements.
+# Format (tab-separated): expression	type	examples	surfaceForms	separability	gapPositions	confidence
+expression	type	examples	surfaceForms	separability	gapPositions	confidence
+se rendre compte	phrasal_verb	Je me suis rendu compte de mon erreur.	se rendre compte|me rends compte|s'est rendu compte	0		1.0
+mettre en œuvre	phrasal_verb	Il faut mettre en œuvre cette stratégie.	mettre en œuvre|met en œuvre|a mis en œuvre	0		1.0
+tenir compte	phrasal_verb	Il faut tenir compte de tous les facteurs.	tenir compte|tient compte|a tenu compte	0		1.0
+prendre en charge	phrasal_verb	L'assurance prend en charge les frais.	prendre en charge|prend en charge|a pris en charge	0		1.0
+faire face	phrasal_verb	Nous devons faire face à ce problème.	faire face|fait face|a fait face	0		1.0
+se passer de	phrasal_verb	Je peux me passer de café le matin.	se passer de|me passe de|s'est passé de	0		1.0
+casser les pieds	idiom	Tu me casses les pieds avec tes questions.		0		0.85
+avoir le cafard	idiom	Elle a le cafard depuis une semaine.		0		0.9
+prendre une décision	collocation	Il est temps de prendre une décision.		0		0.9
+faire une pause	collocation	Faisons une pause de dix minutes.		0		0.85
+prêter attention	collocation	Veuillez prêter attention aux consignes.		0		0.9
+en d'autres termes	fixed	En d'autres termes nous n'avons pas le choix.		0		0.95
+d'autre part	fixed	D'autre part il y a des avantages.		0		0.95
+en revanche	fixed	En revanche les risques sont réels.		0		0.95

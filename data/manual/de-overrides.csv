@@ -1,0 +1,19 @@
+# German manual MWE overrides / supplements.
+# Format (tab-separated): expression	type	examples	surfaceForms	separability	gapPositions	confidence
+expression	type	examples	surfaceForms	separability	gapPositions	confidence
+aufgeben	phrasal_verb	Gib nicht auf!|Sie hat das Rauchen aufgegeben.	aufgeben|gibt auf|gab auf|aufgegeben|aufgebend	1	0	1.0
+anrufen	phrasal_verb	Ich werde dich anrufen.	anrufen|ruft an|rief an|angerufen|anrufend	1	0	1.0
+abfahren	phrasal_verb	Der Zug fährt um 10 Uhr ab.	abfahren|fährt ab|fuhr ab|abgefahren	1	0	1.0
+herausfinden	phrasal_verb	Wir müssen herausfinden, was passiert ist.	herausfinden|findet heraus|fand heraus|herausgefunden	0		1.0
+aufräumen	phrasal_verb	Räum bitte dein Zimmer auf.	aufräumen|räumt auf|räumte auf|aufgeräumt	1	0	1.0
+einstellen	phrasal_verb	Das Unternehmen stellt neue Mitarbeiter ein.	einstellen|stellt ein|stellte ein|eingestellt	1	0	1.0
+ausschalten	phrasal_verb	Schalte das Licht aus.	ausschalten|schaltet aus|schaltete aus|ausgeschaltet	1	0	1.0
+den Nagel auf den Kopf treffen	idiom	Du hast den Nagel auf den Kopf getroffen.		0		0.9
+die Kurve kratzen	idiom	Er hat gerade noch die Kurve gekriegt.		0		0.85
+schweres Wetter	collocation	Schweres Wetter zieht auf.		0		0.85
+eine Entscheidung treffen	collocation	Wir müssen eine Entscheidung treffen.		0		0.9
+Fortschritte machen	collocation	Wir machen gute Fortschritte.		0		0.9
+Aufmerksamkeit schenken	collocation	Bitte schenk diesem Punkt Aufmerksamkeit.		0		0.85
+mit anderen Worten	fixed	Mit anderen Worten haben wir keine Wahl.		0		0.95
+auf der anderen Seite	fixed	Auf der anderen Seite gibt es Vorteile.		0		0.95
+im Großen und Ganzen	fixed	Im Großen und Ganzen war es ein Erfolg.		0		0.95

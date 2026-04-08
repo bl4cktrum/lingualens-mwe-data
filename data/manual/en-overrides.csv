@@ -1,0 +1,43 @@
+# English manual MWE overrides / supplements.
+# Format (tab-separated): expression	type	examples	surfaceForms	separability	gapPositions	confidence
+# - examples: pipe-separated (|)
+# - surfaceForms: pipe-separated (|)
+# - separability: 0=fixed, 1=loose, 2=tight
+# - gapPositions: comma-separated token indices
+expression	type	examples	surfaceForms	separability	gapPositions	confidence
+give up	phrasal_verb	She finally gave up smoking.|Don't give up on your dreams.	give up|gives up|gave up|giving up|given up	1	1	1.0
+look up	phrasal_verb	Look up the word in the dictionary.|She looked it up online.	look up|looks up|looked up|looking up	1	1	1.0
+take off	phrasal_verb	The plane took off at noon.|Take off your coat.	take off|takes off|took off|taking off	1	1	1.0
+put off	phrasal_verb	Stop putting off your homework.	put off|puts off|putting off	1	1	1.0
+turn down	phrasal_verb	He turned down the job offer.	turn down|turns down|turned down|turning down	1	1	1.0
+find out	phrasal_verb	I need to find out what happened.	find out|finds out|found out|finding out	0		1.0
+come across	phrasal_verb	I came across an old photo album.	come across|comes across|came across|coming across	0		1.0
+carry out	phrasal_verb	They carried out the experiment.	carry out|carries out|carried out|carrying out	0		1.0
+set up	phrasal_verb	We need to set up a meeting.	set up|sets up|set up|setting up	1	1	1.0
+break down	phrasal_verb	The car broke down on the highway.|She broke down in tears.	break down|breaks down|broke down|breaking down	0		1.0
+bring up	phrasal_verb	She brought up an interesting point.|He was brought up in London.	bring up|brings up|brought up|bringing up	1	1	1.0
+call off	phrasal_verb	They called off the meeting.	call off|calls off|called off|calling off	0		1.0
+go on	phrasal_verb	Please go on with your story.	go on|goes on|went on|going on	0		1.0
+hold on	phrasal_verb	Hold on — I'll be right back.	hold on|holds on|held on|holding on	0		1.0
+kick the bucket	idiom	The old man finally kicked the bucket.		0		0.9
+bite the bullet	idiom	Just bite the bullet and tell her the truth.		0		0.9
+spill the beans	idiom	Who spilled the beans about the surprise party?		0		0.9
+hit the nail on the head	idiom	You really hit the nail on the head with that comment.		0		0.9
+break a leg	idiom	Break a leg at your audition tonight!		0		0.9
+once in a blue moon	idiom	We only see each other once in a blue moon.		0		0.9
+under the weather	idiom	I'm feeling a bit under the weather today.		0		0.9
+kill two birds with one stone	idiom	Taking the train lets me read — killing two birds with one stone.		0		0.9
+strong coffee	collocation	She needs a strong coffee to wake up.		0		0.85
+heavy rain	collocation	Heavy rain is forecast for tomorrow.		0		0.85
+make a decision	collocation	It's time to make a decision.		0		0.85
+take a break	collocation	Let's take a break for ten minutes.		0		0.85
+pay attention	collocation	Please pay attention to the instructions.		0		0.85
+make progress	collocation	We're making good progress on the project.		0		0.85
+do research	collocation	She does research on climate change.		0		0.85
+raise awareness	collocation	The campaign aims to raise awareness about mental health.		0		0.85
+have a conversation	collocation	I'd like to have a conversation about this.		0		0.85
+in other words	fixed	In other words, we have no choice.		0		0.95
+on the other hand	fixed	On the other hand, there are benefits.		0		0.95
+as a result	fixed	As a result, the project was delayed.		0		0.95
+at least	fixed	At least we tried.		0		0.95
+in fact	fixed	In fact, the opposite is true.		0		0.95

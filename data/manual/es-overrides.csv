@@ -1,0 +1,17 @@
+# Spanish manual MWE overrides / supplements.
+# Format (tab-separated): expression	type	examples	surfaceForms	separability	gapPositions	confidence
+expression	type	examples	surfaceForms	separability	gapPositions	confidence
+darse cuenta	phrasal_verb	Me di cuenta de que estaba equivocado.	darse cuenta|me doy cuenta|se dio cuenta	0		1.0
+llevar a cabo	phrasal_verb	Llevaron a cabo el experimento.	llevar a cabo|lleva a cabo|llevó a cabo	0		1.0
+hacerse cargo	phrasal_verb	Ella se hizo cargo del proyecto.	hacerse cargo|se hace cargo|se hizo cargo	0		1.0
+tener en cuenta	phrasal_verb	Ten en cuenta mis sugerencias.	tener en cuenta|tiene en cuenta|tuvo en cuenta	0		1.0
+dar a conocer	phrasal_verb	La empresa dio a conocer sus resultados.	dar a conocer|da a conocer|dio a conocer	0		1.0
+ponerse de acuerdo	phrasal_verb	Necesitamos ponernos de acuerdo.	ponerse de acuerdo|se pone de acuerdo|se puso de acuerdo	0		1.0
+matar dos pájaros de un tiro	idiom	Haciendo esto matamos dos pájaros de un tiro.		0		0.9
+costar un ojo de la cara	idiom	Este coche me costó un ojo de la cara.		0		0.9
+tomar una decisión	collocation	Es hora de tomar una decisión.		0		0.9
+hacer una pausa	collocation	Hagamos una pausa de diez minutos.		0		0.85
+prestar atención	collocation	Presta atención a las instrucciones.		0		0.9
+en otras palabras	fixed	En otras palabras no tenemos opción.		0		0.95
+por otro lado	fixed	Por otro lado hay ventajas.		0		0.95
+sin embargo	fixed	Sin embargo hay que considerar los riesgos.		0		0.95

@@ -1,0 +1,12 @@
+{
+  "version": "2026.04.08",
+  "baseUrl": "https://cdn.jsdelivr.net/gh/bl4cktrum/lingualens-mwe-data@v1/bundles/",
+  "bundles": {
+    "en": {
+      "version": "2026.04.08",
+      "entries": 13754,
+      "sizeBytes": 420395,
+      "sha256": "b715ea0ada43a7938a1c428277104dfd623225da79048eebce0a2ef12bf8065e"
+    }
+  }
+}
