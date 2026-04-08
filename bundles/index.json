@@ -6,7 +6,61 @@
       "version": "2026.04.08",
       "entries": 13754,
       "sizeBytes": 420395,
-      "sha256": "b715ea0ada43a7938a1c428277104dfd623225da79048eebce0a2ef12bf8065e"
+      "sha256": "2397c182c93d6975bd3b026b3763a67a3489ada213a5d2627d6511868152c7a9"
+    },
+    "de": {
+      "version": "2026.04.08",
+      "entries": 899,
+      "sizeBytes": 33379,
+      "sha256": "196b0bd487151277d627596cefc2ba6f9584949e175da889ae8a6f5f1f3d052c"
+    },
+    "es": {
+      "version": "2026.04.08",
+      "entries": 3177,
+      "sizeBytes": 100059,
+      "sha256": "ad7c50fed9b29dcceb5e81256595301e2e06a822ef227cf751e548a6bad52a4f"
+    },
+    "fr": {
+      "version": "2026.04.08",
+      "entries": 330,
+      "sizeBytes": 12408,
+      "sha256": "0a78f52c482e541a34400c668044d192c39a246aecb5e5ab57889dc5466b4386"
+    },
+    "tr": {
+      "version": "2026.04.08",
+      "entries": 336,
+      "sizeBytes": 11577,
+      "sha256": "4490b09e67c1dc71fc15ab6624780c9e25f35a8f1b8cdee10186f878163a9292"
+    },
+    "nl": {
+      "version": "2026.04.08",
+      "entries": 687,
+      "sizeBytes": 24073,
+      "sha256": "749189c1ef85fbe46a6764ceed48c36ac84b5b0e00815a18bb1e7c00a613f945"
+    },
+    "fi": {
+      "version": "2026.04.08",
+      "entries": 1416,
+      "sizeBytes": 47522,
+      "sha256": "14aaf828e5f864040b6e3f91f6b89bf3ce1b79f68fc7f014cc7525382936735d"
+    },
+    "it": {
+      "version": "2026.04.08",
+      "entries": 800,
+      "sizeBytes": 25390,
+      "sha256": "d6211965b6bf40641f9ace60677e347096a7f18a942edfd5381295a4b0f833a0"
+    },
+    "pt": {
+      "version": "2026.04.08",
+      "entries": 916,
+      "sizeBytes": 29372,
+      "sha256": "b1cbdbbc9840c6ef5a84035e811f3c7a9fb4983e591445b868f784dbc6a817f3"
+    },
+    "sv": {
+      "version": "2026.04.08",
+      "entries": 1619,
+      "sizeBytes": 46371,
+      "sha256": "8066a0174018aa9a6c2605d7b88d2c0ed7c95ec8c85616f2216ca50ac5a1e3cd"
     }
   }
 }
