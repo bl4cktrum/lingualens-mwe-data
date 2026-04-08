@@ -1,6 +1,6 @@
 {
   "version": "2026.04.08",
-  "baseUrl": "https://cdn.jsdelivr.net/gh/bl4cktrum/lingualens-mwe-data@v2/bundles/",
+  "baseUrl": "https://cdn.jsdelivr.net/gh/bl4cktrum/lingualens-mwe-data@v3/bundles/",
   "bundles": {
     "en": {
       "version": "2026.04.08",
