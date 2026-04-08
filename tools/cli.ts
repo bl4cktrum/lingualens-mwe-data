@@ -20,7 +20,7 @@ import { program } from "commander"
 import { LANG_CONFIGS } from "./lang-config.ts"
 import { buildLanguage, writeIndex } from "./builder.ts"
 
-const BASE_URL = "https://cdn.jsdelivr.net/gh/bl4cktrum/lingualens-mwe-data@v1/bundles/"
+const BASE_URL = "https://cdn.jsdelivr.net/gh/bl4cktrum/lingualens-mwe-data@v2/bundles/"
 
 program
   .name("build-bundle")

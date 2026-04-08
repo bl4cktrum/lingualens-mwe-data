@@ -1,19 +1,28 @@
 # German manual MWE overrides / supplements.
-# Format (tab-separated): expression	type	examples	surfaceForms	separability	gapPositions	confidence
+# Format (tab-separated, exactly 7 columns): expression	type	examples	surfaceForms	separability	gapPositions	confidence
+# Separable verbs: canonical form = "PREFIX VERB" (space-separated), surfaceForms includes fused + conjugated forms.
 expression	type	examples	surfaceForms	separability	gapPositions	confidence
-aufgeben	phrasal_verb	Gib nicht auf!|Sie hat das Rauchen aufgegeben.	aufgeben|gibt auf|gab auf|aufgegeben|aufgebend	1	0	1.0
-anrufen	phrasal_verb	Ich werde dich anrufen.	anrufen|ruft an|rief an|angerufen|anrufend	1	0	1.0
-abfahren	phrasal_verb	Der Zug fährt um 10 Uhr ab.	abfahren|fährt ab|fuhr ab|abgefahren	1	0	1.0
-herausfinden	phrasal_verb	Wir müssen herausfinden, was passiert ist.	herausfinden|findet heraus|fand heraus|herausgefunden	0		1.0
-aufräumen	phrasal_verb	Räum bitte dein Zimmer auf.	aufräumen|räumt auf|räumte auf|aufgeräumt	1	0	1.0
-einstellen	phrasal_verb	Das Unternehmen stellt neue Mitarbeiter ein.	einstellen|stellt ein|stellte ein|eingestellt	1	0	1.0
-ausschalten	phrasal_verb	Schalte das Licht aus.	ausschalten|schaltet aus|schaltete aus|ausgeschaltet	1	0	1.0
+auf geben	phrasal_verb	Gib nicht auf!|Sie hat das Rauchen aufgegeben.	aufgeben|auf geben|gibt auf|gab auf|aufgegeben|gebe auf	1	1	1.0
+an rufen	phrasal_verb	Ich werde dich anrufen.|Ruf mich an!	anrufen|an rufen|ruft an|rief an|angerufen|rufe an	1	1	1.0
+ab fahren	phrasal_verb	Der Zug fährt um 10 Uhr ab.	abfahren|ab fahren|fährt ab|fuhr ab|abgefahren|fahre ab	1	1	1.0
+heraus finden	phrasal_verb	Wir müssen herausfinden, was passiert ist.	herausfinden|heraus finden|findet heraus|fand heraus|herausgefunden	1	1	1.0
+auf räumen	phrasal_verb	Räum bitte dein Zimmer auf.	aufräumen|auf räumen|räumt auf|räumte auf|aufgeräumt|räume auf	1	1	1.0
+ein stellen	phrasal_verb	Das Unternehmen stellt neue Mitarbeiter ein.	einstellen|ein stellen|stellt ein|stellte ein|eingestellt|stelle ein	1	1	1.0
+aus schalten	phrasal_verb	Schalte das Licht aus.	ausschalten|aus schalten|schaltet aus|schaltete aus|ausgeschaltet|schalte aus	1	1	1.0
+an fangen	phrasal_verb	Wann fängst du an?|Fang endlich an!	anfangen|an fangen|fängt an|fing an|angefangen|fange an	1	1	1.0
+aus gehen	phrasal_verb	Wir gehen heute Abend aus.|Das Geld ist ausgegangen.	ausgehen|aus gehen|geht aus|ging aus|ausgegangen|gehe aus	1	1	1.0
+vor bereiten	phrasal_verb	Bereite dich auf das Meeting vor.	vorbereiten|vor bereiten|bereitet vor|bereitete vor|vorbereitet|bereite vor	1	1	1.0
 den Nagel auf den Kopf treffen	idiom	Du hast den Nagel auf den Kopf getroffen.		0		0.9
+ins Fettnäpfchen treten	idiom	Er ist mal wieder ins Fettnäpfchen getreten.		0		0.85
 die Kurve kratzen	idiom	Er hat gerade noch die Kurve gekriegt.		0		0.85
-schweres Wetter	collocation	Schweres Wetter zieht auf.		0		0.85
-eine Entscheidung treffen	collocation	Wir müssen eine Entscheidung treffen.		0		0.9
-Fortschritte machen	collocation	Wir machen gute Fortschritte.		0		0.9
+jemandem auf die Nerven gehen	idiom	Du gehst mir auf die Nerven!		0		0.85
+eine Entscheidung treffen	collocation	Wir müssen eine Entscheidung treffen.		0		0.85
+Fortschritte machen	collocation	Wir machen gute Fortschritte.		0		0.85
 Aufmerksamkeit schenken	collocation	Bitte schenk diesem Punkt Aufmerksamkeit.		0		0.85
+eine Frage stellen	collocation	Darf ich eine Frage stellen?		0		0.85
+schweres Wetter	collocation	Schweres Wetter zieht auf.		0		0.8
 mit anderen Worten	fixed	Mit anderen Worten haben wir keine Wahl.		0		0.95
 auf der anderen Seite	fixed	Auf der anderen Seite gibt es Vorteile.		0		0.95
 im Großen und Ganzen	fixed	Im Großen und Ganzen war es ein Erfolg.		0		0.95
+in der Tat	fixed	In der Tat ist das richtig.		0		0.9
+zum Beispiel	fixed	Zum Beispiel könnte man Folgendes tun.		0		0.95
