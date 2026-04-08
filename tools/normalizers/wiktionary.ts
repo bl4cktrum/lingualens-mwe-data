@@ -24,6 +24,15 @@ import {
   type CanonicalMweEntry
 } from "../canonical.ts"
 import type { WiktionaryRawEntry } from "../fetchers/wiktionary.ts"
+import { phrasalVerbForms } from "../morphology/en-conjugator.ts"
+import { buildDeSeparableEntries } from "../morphology/de-conjugator.ts"
+
+// Pre-build de lookup: canonical → forms
+const DE_FORMS = new Map<string, string[]>()
+for (const e of buildDeSeparableEntries()) {
+  DE_FORMS.set(e.canonical, e.forms)
+  DE_FORMS.set(e.fused, e.forms)
+}
 
 /** English particles commonly found in phrasal verbs. */
 const EN_PARTICLES = new Set([
@@ -67,11 +76,24 @@ export function normalizeWiktionary(raw: WiktionaryRawEntry[]): CanonicalMweEntr
     // capped at 0.9.
     const confidence = Math.min(0.7 + (tokens.length - 2) * 0.05, 0.9)
 
+    // Auto-generate surface forms for phrasal verbs.
+    let surfaceForms: string[] | undefined
+    if (entry.type === "phrasal_verb") {
+      if (entry.lang === "en") {
+        const forms = phrasalVerbForms(expr)
+        if (forms.length > 1) surfaceForms = forms
+      } else if (entry.lang === "de") {
+        const forms = DE_FORMS.get(expr)
+        if (forms && forms.length > 1) surfaceForms = forms
+      }
+    }
+
     results.push({
       expression: expr,
       lang: entry.lang,
       type: entry.type,
       separability: separability || undefined,
+      ...(surfaceForms ? { surfaceForms } : {}),
       source: "wiktionary",
       confidence
     })

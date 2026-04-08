@@ -2,11 +2,77 @@
   "version": "2026.04.08",
   "baseUrl": "https://cdn.jsdelivr.net/gh/bl4cktrum/lingualens-mwe-data@v2/bundles/",
   "bundles": {
+    "en": {
+      "version": "2026.04.08",
+      "entries": 13754,
+      "sizeBytes": 729294,
+      "sha256": "2f2091e11b4091bb2a55f4917deb62dbc58cf007ac2bb3cf15d378d0a82a01e6"
+    },
     "de": {
       "version": "2026.04.08",
       "entries": 913,
       "sizeBytes": 35396,
-      "sha256": "fa25fd36cb626d59430127ef813a1c6f23714b2866bd4a0f6d9cbe7840987b3b"
+      "sha256": "c7d5e628e23a8988fe64529400c54d99afc5a488eb05719109b344021cf84dac"
+    },
+    "es": {
+      "version": "2026.04.08",
+      "entries": 3177,
+      "sizeBytes": 100059,
+      "sha256": "304e1fc55030221b22408ef180eea9e4ba7e97ea35d5c89afb717c6a79e30529"
+    },
+    "fr": {
+      "version": "2026.04.08",
+      "entries": 330,
+      "sizeBytes": 12408,
+      "sha256": "2affd193268ee4c992e502b6d0dad84af3873c09fc7b3b4e1be6accc8df4cae5"
+    },
+    "tr": {
+      "version": "2026.04.08",
+      "entries": 336,
+      "sizeBytes": 11577,
+      "sha256": "2f0eb8cdda33e3141e272851c0dffda47a442feec0981f45959ad350e45ef771"
+    },
+    "nl": {
+      "version": "2026.04.08",
+      "entries": 687,
+      "sizeBytes": 24073,
+      "sha256": "2886da4ec3a78c055e90aeb35bad44a5d5e5c169a9d1011bff001603b4e02eae"
+    },
+    "fi": {
+      "version": "2026.04.08",
+      "entries": 1416,
+      "sizeBytes": 47522,
+      "sha256": "aa4c65df855decf19b781e1a650d0fcd6d8a9db729f2638f7ccb51e7c119c554"
+    },
+    "it": {
+      "version": "2026.04.08",
+      "entries": 800,
+      "sizeBytes": 25390,
+      "sha256": "0a268ca589367f2b200359a747dbfe0f9fd2210090ad0efd13a67fba81331cd1"
+    },
+    "pt": {
+      "version": "2026.04.08",
+      "entries": 916,
+      "sizeBytes": 29372,
+      "sha256": "ef5a2f28cef2ad9c62cc0244ce0b2fb9a551c9ebd08f6db3142af47cc252c3bc"
+    },
+    "sv": {
+      "version": "2026.04.08",
+      "entries": 1619,
+      "sizeBytes": 46371,
+      "sha256": "383d55b0e88585137b990fda1cbd53864ef7df76d4a24234f90982ed05980895"
+    },
+    "ja": {
+      "version": "2026.04.08",
+      "entries": 0,
+      "sizeBytes": 125,
+      "sha256": "0e91dcfe990914442246867693948690a85643a2b18459336287c8ba4fcbad47"
+    },
+    "zh": {
+      "version": "2026.04.08",
+      "entries": 0,
+      "sizeBytes": 125,
+      "sha256": "a26ceb1ba3d117b10bb1d87994406cdaf51d2a674a0321e53d183afedb0d85b3"
     }
   }
 }
