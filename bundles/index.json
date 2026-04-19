@@ -1,78 +1,78 @@
 {
-  "version": "2026.04.12",
+  "version": "2026.04.19",
   "baseUrl": "https://cdn.jsdelivr.net/gh/bl4cktrum/lingualens-mwe-data@v2/bundles/",
   "bundles": {
     "en": {
-      "version": "2026.04.12",
-      "entries": 13763,
-      "sizeBytes": 729874,
-      "sha256": "bbbd55416a8e1b20aab2866a514f5525380aab14405aea59aaa55dfdf4e88072"
+      "version": "2026.04.19",
+      "entries": 13781,
+      "sizeBytes": 730665,
+      "sha256": "65150e4009480d4cbe6c6f855b3f40d9d225144261b9acf7a5c3d5fdd6e9e849"
     },
     "de": {
-      "version": "2026.04.12",
-      "entries": 913,
-      "sizeBytes": 35396,
-      "sha256": "0eb4fa9a9ccc997271e3d7a91665a521c29f738c923db476277e9a853b18e29b"
+      "version": "2026.04.19",
+      "entries": 916,
+      "sizeBytes": 35502,
+      "sha256": "16b0fd42b009b887b9eae63331a143128dcad3b847c00e3afab54aaa7ae919a5"
     },
     "es": {
-      "version": "2026.04.12",
-      "entries": 3178,
-      "sizeBytes": 100086,
-      "sha256": "2a8c90549e9dd72d040c3feea57f1efde9e19b8cf3e6503c0d139daba4ca3f8c"
+      "version": "2026.04.19",
+      "entries": 3180,
+      "sizeBytes": 100140,
+      "sha256": "64c32ea7921f847010e61989047e4c5e8860f8b4551c602272344f51c05591c3"
     },
     "fr": {
-      "version": "2026.04.12",
-      "entries": 330,
-      "sizeBytes": 12408,
-      "sha256": "9b929a9e864069a90198f22c9ca21e3833a189762bcf64223e8fb68d8582e7c2"
+      "version": "2026.04.19",
+      "entries": 332,
+      "sizeBytes": 12471,
+      "sha256": "6b0f0002232b137f8ae145e143a51d15fc8a2e028f50479744637799af6425d8"
     },
     "tr": {
-      "version": "2026.04.12",
-      "entries": 336,
-      "sizeBytes": 11577,
-      "sha256": "1f1e765886ea17bef2b7be8b61ed9470170777dc20ae62ffe6e34791edc1347f"
+      "version": "2026.04.19",
+      "entries": 338,
+      "sizeBytes": 11622,
+      "sha256": "900163bf081b059380f2a492cf97d0a3dba3dde5956d887f6e71c60d847a8dd2"
     },
     "nl": {
-      "version": "2026.04.12",
-      "entries": 690,
-      "sizeBytes": 24174,
-      "sha256": "3bde0c34c1ed4d679c683f2c9dca822d572361b8f0ab1f492b975f0bc7aa0c90"
+      "version": "2026.04.19",
+      "entries": 696,
+      "sizeBytes": 24363,
+      "sha256": "a2c6ac80bfaf11e842d0947cb86fc64ef7c4c3dd1206c32a0af3204606675458"
     },
     "fi": {
-      "version": "2026.04.12",
+      "version": "2026.04.19",
       "entries": 1416,
       "sizeBytes": 47522,
-      "sha256": "512c11e6f2271ef6747e33a1bcbd5dbb879fff9bea5ac8f0944ffb7c144954d3"
+      "sha256": "cf6e2aca04b33a5e4f032007d0da0da27010881d28ae3f0d9e16def395b35091"
     },
     "it": {
-      "version": "2026.04.12",
-      "entries": 800,
-      "sizeBytes": 25390,
-      "sha256": "d3a50e785004a45946cae76af76083ab4e84bf866574df1042f8e38b9dfdc103"
+      "version": "2026.04.19",
+      "entries": 801,
+      "sizeBytes": 25420,
+      "sha256": "23f68591c0a5f8b2308c07b37567daa73cd161e7b2c42947bf27f22fc224f31a"
     },
     "pt": {
-      "version": "2026.04.12",
+      "version": "2026.04.19",
       "entries": 916,
       "sizeBytes": 29372,
-      "sha256": "8706829c5928112eb7035800b21c111f5c6403dd892f9a1e594f48b10979f467"
+      "sha256": "dd40cdb5b1b1c240c0279cfd6fbd63af1a7f0375c43377e1cb5d45ecaa35bdfe"
     },
     "sv": {
-      "version": "2026.04.12",
+      "version": "2026.04.19",
       "entries": 1619,
       "sizeBytes": 46371,
-      "sha256": "1aa05c8d712f143af83de66df2ece2956121f5c331b24a22749aced92911962a"
+      "sha256": "cb86fe45b5cb621ce887fea11919a04324944cde990a224d6b08976ff4f60bb6"
     },
     "ja": {
-      "version": "2026.04.12",
+      "version": "2026.04.19",
       "entries": 0,
       "sizeBytes": 125,
-      "sha256": "2f1eb1adbe773fbefc231fee15f32a65ee8525bdd3ef0f4fe28b4c19bf659751"
+      "sha256": "492b560d9734a353cb85cb15f7a6b2739cc13acedef1be5497ad6dc8ec40db41"
     },
     "zh": {
-      "version": "2026.04.12",
+      "version": "2026.04.19",
       "entries": 0,
       "sizeBytes": 125,
-      "sha256": "6771964b0b02793e31b851f0ca8e23f29382cfd366d372efd2cb573ed83d6229"
+      "sha256": "c3f1d024cf7e5404e1b3dae3dc77bb8c2ab16ff6057fd8a30a23893bc0fca135"
     }
   }
 }
