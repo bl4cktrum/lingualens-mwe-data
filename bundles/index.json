@@ -1,78 +1,78 @@
 {
-  "version": "2026.04.19",
+  "version": "2026.04.26",
   "baseUrl": "https://cdn.jsdelivr.net/gh/bl4cktrum/lingualens-mwe-data@v2/bundles/",
   "bundles": {
     "en": {
-      "version": "2026.04.19",
-      "entries": 13781,
-      "sizeBytes": 730665,
-      "sha256": "65150e4009480d4cbe6c6f855b3f40d9d225144261b9acf7a5c3d5fdd6e9e849"
+      "version": "2026.04.26",
+      "entries": 13790,
+      "sizeBytes": 731049,
+      "sha256": "b9e36aa35473af7dad281768ea6c4c46ec22997f4d3f8fcee76b12d366b4f1dc"
     },
     "de": {
-      "version": "2026.04.19",
-      "entries": 916,
-      "sizeBytes": 35502,
-      "sha256": "16b0fd42b009b887b9eae63331a143128dcad3b847c00e3afab54aaa7ae919a5"
+      "version": "2026.04.26",
+      "entries": 919,
+      "sizeBytes": 35590,
+      "sha256": "c970d8aa14cc84e40e5c576a926d8a18b43a2f62828e5187873a1a00c9c880f3"
     },
     "es": {
-      "version": "2026.04.19",
+      "version": "2026.04.26",
       "entries": 3180,
-      "sizeBytes": 100140,
-      "sha256": "64c32ea7921f847010e61989047e4c5e8860f8b4551c602272344f51c05591c3"
+      "sizeBytes": 100120,
+      "sha256": "68f9255ba108360f705f687be567fd31f5358db2a1d7fb6eb6ccde8e0f72ec6f"
     },
     "fr": {
-      "version": "2026.04.19",
-      "entries": 332,
-      "sizeBytes": 12471,
-      "sha256": "6b0f0002232b137f8ae145e143a51d15fc8a2e028f50479744637799af6425d8"
+      "version": "2026.04.26",
+      "entries": 331,
+      "sizeBytes": 12444,
+      "sha256": "01cf9a64d85483dc7134fb3981e6818954396fc0df67d9a69730623c399baef9"
     },
     "tr": {
-      "version": "2026.04.19",
+      "version": "2026.04.26",
       "entries": 338,
       "sizeBytes": 11622,
-      "sha256": "900163bf081b059380f2a492cf97d0a3dba3dde5956d887f6e71c60d847a8dd2"
+      "sha256": "79d06e0ab77b4a14c16404632955d8af2b2e7cfea7a16e687f52da2190cd6e3b"
     },
     "nl": {
-      "version": "2026.04.19",
-      "entries": 696,
-      "sizeBytes": 24363,
-      "sha256": "a2c6ac80bfaf11e842d0947cb86fc64ef7c4c3dd1206c32a0af3204606675458"
+      "version": "2026.04.26",
+      "entries": 698,
+      "sizeBytes": 24421,
+      "sha256": "39ba8400df72134b9dff1208a1eae2b219986b43bc58389ac144379721321248"
     },
     "fi": {
-      "version": "2026.04.19",
+      "version": "2026.04.26",
       "entries": 1416,
       "sizeBytes": 47522,
-      "sha256": "cf6e2aca04b33a5e4f032007d0da0da27010881d28ae3f0d9e16def395b35091"
+      "sha256": "5f5d1a5077491a9f391ccceed63300470615e65b98e53afee419f656ec1c9f81"
     },
     "it": {
-      "version": "2026.04.19",
+      "version": "2026.04.26",
       "entries": 801,
       "sizeBytes": 25420,
-      "sha256": "23f68591c0a5f8b2308c07b37567daa73cd161e7b2c42947bf27f22fc224f31a"
+      "sha256": "9d06a76e10517b5192bb333d177e083b73f65ab59e40fa20147a6761e2f1a4cd"
     },
     "pt": {
-      "version": "2026.04.19",
-      "entries": 916,
-      "sizeBytes": 29372,
-      "sha256": "dd40cdb5b1b1c240c0279cfd6fbd63af1a7f0375c43377e1cb5d45ecaa35bdfe"
+      "version": "2026.04.26",
+      "entries": 918,
+      "sizeBytes": 29430,
+      "sha256": "4766ad716b451f1542b9cc92ca31a57207245945779bde218daa3a2ea2e49bbf"
     },
     "sv": {
-      "version": "2026.04.19",
+      "version": "2026.04.26",
       "entries": 1619,
       "sizeBytes": 46371,
-      "sha256": "cb86fe45b5cb621ce887fea11919a04324944cde990a224d6b08976ff4f60bb6"
+      "sha256": "efe0a12ea321cdec8b04969d68fbc164e8f1365dbf4259f4b86671cb69a118ff"
     },
     "ja": {
-      "version": "2026.04.19",
+      "version": "2026.04.26",
       "entries": 0,
       "sizeBytes": 125,
-      "sha256": "492b560d9734a353cb85cb15f7a6b2739cc13acedef1be5497ad6dc8ec40db41"
+      "sha256": "ac293e2102b84df07d986eb123f37bbdf502c29f542f5981c8923eaab1b232e2"
     },
     "zh": {
-      "version": "2026.04.19",
+      "version": "2026.04.26",
       "entries": 0,
       "sizeBytes": 125,
-      "sha256": "c3f1d024cf7e5404e1b3dae3dc77bb8c2ab16ff6057fd8a30a23893bc0fca135"
+      "sha256": "effa854d3705cb01a2cdbd08bd47905e35e773fef98c80c21ce4fdb73a471f44"
     }
   }
 }
