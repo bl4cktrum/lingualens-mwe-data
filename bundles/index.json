@@ -1,78 +1,78 @@
 {
-  "version": "2026.04.26",
+  "version": "2026.05.03",
   "baseUrl": "https://cdn.jsdelivr.net/gh/bl4cktrum/lingualens-mwe-data@v2/bundles/",
   "bundles": {
     "en": {
-      "version": "2026.04.26",
-      "entries": 13790,
-      "sizeBytes": 731049,
-      "sha256": "b9e36aa35473af7dad281768ea6c4c46ec22997f4d3f8fcee76b12d366b4f1dc"
+      "version": "2026.05.03",
+      "entries": 36,
+      "sizeBytes": 3910,
+      "sha256": "1876e4d702ad7c24625ccdcf59aecd90a4ee56b9c25fd9eadaae7624a4f95146"
     },
     "de": {
-      "version": "2026.04.26",
-      "entries": 919,
-      "sizeBytes": 35590,
-      "sha256": "c970d8aa14cc84e40e5c576a926d8a18b43a2f62828e5187873a1a00c9c880f3"
+      "version": "2026.05.03",
+      "entries": 24,
+      "sizeBytes": 3060,
+      "sha256": "40360213a5c6bac0edd379f9edae71ee67ed8ea188d90c655ae3885de2d5de20"
     },
     "es": {
-      "version": "2026.04.26",
-      "entries": 3180,
-      "sizeBytes": 100120,
-      "sha256": "68f9255ba108360f705f687be567fd31f5358db2a1d7fb6eb6ccde8e0f72ec6f"
+      "version": "2026.05.03",
+      "entries": 14,
+      "sizeBytes": 1621,
+      "sha256": "5e3c01831f00c9c010866400c8a02511113fdae5756e6206f8a3cd32638127da"
     },
     "fr": {
-      "version": "2026.04.26",
-      "entries": 331,
-      "sizeBytes": 12444,
-      "sha256": "01cf9a64d85483dc7134fb3981e6818954396fc0df67d9a69730623c399baef9"
+      "version": "2026.05.03",
+      "entries": 14,
+      "sizeBytes": 1646,
+      "sha256": "afd1e93fe5139c04a88fb76d85e9d172a124fab6a3eb0cee1b86dd38e11521fd"
     },
     "tr": {
-      "version": "2026.04.26",
-      "entries": 338,
-      "sizeBytes": 11622,
-      "sha256": "79d06e0ab77b4a14c16404632955d8af2b2e7cfea7a16e687f52da2190cd6e3b"
+      "version": "2026.05.03",
+      "entries": 15,
+      "sizeBytes": 1250,
+      "sha256": "85fd6c38f50636dc95f6ddb8c36d6977d3c451f93ef774a8cd189b4d8b30a015"
     },
     "nl": {
-      "version": "2026.04.26",
-      "entries": 698,
-      "sizeBytes": 24421,
-      "sha256": "39ba8400df72134b9dff1208a1eae2b219986b43bc58389ac144379721321248"
+      "version": "2026.05.03",
+      "entries": 0,
+      "sizeBytes": 231,
+      "sha256": "53f349872475bbc6a412eebd0df6ab42db40f06842bba4a05a616b830ca9b7b2"
     },
     "fi": {
-      "version": "2026.04.26",
-      "entries": 1416,
-      "sizeBytes": 47522,
-      "sha256": "5f5d1a5077491a9f391ccceed63300470615e65b98e53afee419f656ec1c9f81"
+      "version": "2026.05.03",
+      "entries": 0,
+      "sizeBytes": 125,
+      "sha256": "cb6b3112294d2f79786579c133ae7302dc022206a3eef534a930d7c244dc54f3"
     },
     "it": {
-      "version": "2026.04.26",
-      "entries": 801,
-      "sizeBytes": 25420,
-      "sha256": "9d06a76e10517b5192bb333d177e083b73f65ab59e40fa20147a6761e2f1a4cd"
+      "version": "2026.05.03",
+      "entries": 0,
+      "sizeBytes": 235,
+      "sha256": "2f2cc25574774535953e9371e3c230c0572b329c5ad02648cead5c720675908e"
     },
     "pt": {
-      "version": "2026.04.26",
-      "entries": 918,
-      "sizeBytes": 29430,
-      "sha256": "4766ad716b451f1542b9cc92ca31a57207245945779bde218daa3a2ea2e49bbf"
+      "version": "2026.05.03",
+      "entries": 0,
+      "sizeBytes": 232,
+      "sha256": "aa4abe07e35c5b1570afce238ac4722b15191e76885141bc859ab39dc38c4cc7"
     },
     "sv": {
-      "version": "2026.04.26",
-      "entries": 1619,
-      "sizeBytes": 46371,
-      "sha256": "efe0a12ea321cdec8b04969d68fbc164e8f1365dbf4259f4b86671cb69a118ff"
+      "version": "2026.05.03",
+      "entries": 0,
+      "sizeBytes": 226,
+      "sha256": "134ecb12dfae43437c10b54546feb9cacad1150199a0d7b790613eaa6e275b3e"
     },
     "ja": {
-      "version": "2026.04.26",
+      "version": "2026.05.03",
       "entries": 0,
       "sizeBytes": 125,
-      "sha256": "ac293e2102b84df07d986eb123f37bbdf502c29f542f5981c8923eaab1b232e2"
+      "sha256": "a05607887b6100515613acc62ddb4d8b3f4e723adaeef123c2a00eb859fe9964"
     },
     "zh": {
-      "version": "2026.04.26",
+      "version": "2026.05.03",
       "entries": 0,
       "sizeBytes": 125,
-      "sha256": "effa854d3705cb01a2cdbd08bd47905e35e773fef98c80c21ce4fdb73a471f44"
+      "sha256": "3263ef401c39ce7ee819b6ecab41d7d6767b2c22317449b5473f8c3aa8689951"
     }
   }
 }
