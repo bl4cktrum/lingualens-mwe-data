@@ -1,78 +1,78 @@
 {
-  "version": "2026.06.28",
+  "version": "2026.07.05",
   "baseUrl": "https://cdn.jsdelivr.net/gh/bl4cktrum/lingualens-mwe-data@v2/bundles/",
   "bundles": {
     "en": {
-      "version": "2026.06.28",
+      "version": "2026.07.05",
       "entries": 36,
       "sizeBytes": 3910,
-      "sha256": "0a24a9deb8f3b4ba0592aaad0b433ce2c93d5815ee63a19935a3d3567a8bb6bf"
+      "sha256": "772d59d4ebe35e37d0fd41b11e50de794f6462cbec7460e427f80850b7d7af13"
     },
     "de": {
-      "version": "2026.06.28",
+      "version": "2026.07.05",
       "entries": 24,
       "sizeBytes": 3060,
-      "sha256": "ef67349529f5e432b30ca12b481536e550d832d9b5148628894e28cddc0ef5a3"
+      "sha256": "0be19fc1e6b52207064e1cbd6f14f64df891b5d3436060f999c6e31070e84ba5"
     },
     "es": {
-      "version": "2026.06.28",
+      "version": "2026.07.05",
       "entries": 14,
       "sizeBytes": 1621,
-      "sha256": "f28c07147fa825f046177ee495698aeb7cb88971e803a29e5d3d7723b8440914"
+      "sha256": "1b11b1568d9a7ba407fd344218e2cb2aa200524b97a28e31a074c6665fc6eb2e"
     },
     "fr": {
-      "version": "2026.06.28",
+      "version": "2026.07.05",
       "entries": 14,
       "sizeBytes": 1646,
-      "sha256": "117ec0693685c2cbaa34e2a4c8cdb0ae8be88c4fc442c2efa3e484ae357bfa8d"
+      "sha256": "a138987f9a5e058dd5b604949827ff386c9fb16861af5745908da2e0bd37cb9a"
     },
     "tr": {
-      "version": "2026.06.28",
+      "version": "2026.07.05",
       "entries": 15,
       "sizeBytes": 1250,
-      "sha256": "8e12e7c2c25725c0bb46a620613deb484aa430ec6a97d586f88c9450d167778f"
+      "sha256": "cf562fecc8f386784c254ad687f48192bf06ef009dbdd7599933ab16f73d47cd"
     },
     "nl": {
-      "version": "2026.06.28",
+      "version": "2026.07.05",
       "entries": 0,
       "sizeBytes": 231,
-      "sha256": "1932aac562d98fc00482c424b71aca7b8254bf6f5a0877b2bb564935770ebb2c"
+      "sha256": "1c68cad644635108afc3d879234daf1b3110733c9ee6104f997d26b74b48312c"
     },
     "fi": {
-      "version": "2026.06.28",
+      "version": "2026.07.05",
       "entries": 0,
       "sizeBytes": 125,
-      "sha256": "d08b7c385a90efc9341a42e457eb8f7621d82f01b8a1ea34155639ce77df916f"
+      "sha256": "0b40867367a04e1b255d2b4ef1e6e37aecc18275cb63a34c7388bf12c84c2546"
     },
     "it": {
-      "version": "2026.06.28",
+      "version": "2026.07.05",
       "entries": 0,
       "sizeBytes": 235,
-      "sha256": "e4be6c5f09f6cb9b75b42ce52c3fe4e9999e296da39ea572730732078dd98541"
+      "sha256": "aa245a9be473747fbadda297cf429737ab7c26483a6dc8e35c8549fa2bb5cb6b"
     },
     "pt": {
-      "version": "2026.06.28",
+      "version": "2026.07.05",
       "entries": 0,
       "sizeBytes": 232,
-      "sha256": "0ef5cfd3d399ca9db03046a10327eba62a91b992ddef2cdc36740eb19b021b84"
+      "sha256": "ccfb275b2efd6ce9f57cffdaeb5cbd88388d277028daa23c22ded17af7725888"
     },
     "sv": {
-      "version": "2026.06.28",
+      "version": "2026.07.05",
       "entries": 0,
       "sizeBytes": 226,
-      "sha256": "23989ab5388661a0197b410a7301a923561198795c302f63a0dd9c8d6cbfb5c1"
+      "sha256": "9f94e4b4e4dfe76ca45c6c1b5d005a571c3800e141bbfe7fbebbfee314a6ec47"
     },
     "ja": {
-      "version": "2026.06.28",
+      "version": "2026.07.05",
       "entries": 0,
       "sizeBytes": 125,
-      "sha256": "28aeab70da43e447b995d30e5090207d3ea0ff5b1a6918163f19a9d20e5f96d2"
+      "sha256": "31d7103bdfe700f24eb1d961fa715e42d47747c48d20760d8a762d5f572fbcee"
     },
     "zh": {
-      "version": "2026.06.28",
+      "version": "2026.07.05",
       "entries": 0,
       "sizeBytes": 125,
-      "sha256": "397cd61fb36cf41ba51f3a7e8f63ddfcca91318625ad964b5d4b873fdc1a7424"
+      "sha256": "88b7749ffafe13596d9af93b6061385c56e64a4ba41ac20c9846734d769f63c4"
     }
   }
 }
